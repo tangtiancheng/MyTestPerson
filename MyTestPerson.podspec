@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "MyTestPerson"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "简短的介绍"
 
   s.description  = "稍微长一点的介绍, 注意字数比上面长"
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.ios.deployment_target = '9.0'
 
 
 end
