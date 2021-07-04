@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "MyTestPerson"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "简短的介绍"
 
   s.description  = "稍微长一点的介绍, 注意字数比上面长"
